@@ -488,7 +488,8 @@ margin-bottom: 8px;
 
 .footer-icons {
   display: block;
-  margin: 8px;
+  /* margin: 8px; */
+  margin-left: 16px;
   fill: #f4f4fd;
 }
 
@@ -520,6 +521,11 @@ margin-bottom: 8px;
     border: 1px solid #fff;
     border-radius: 4px;
     color: #fff;
+
+    font-size: 12px;
+    line-height: 2; 
+    letter-spacing: 0.04em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
 
   .footer-input::placeholder {
@@ -538,6 +544,7 @@ margin-bottom: 8px;
   padding-right: 24px;
   border: none;
   display: flex;
+  justify-content: center
   align-items: center;
   gap: 16px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -638,7 +645,11 @@ button.modal-close {
   }
 
   .modal-field.comment {
-    margin-bottom: 16px
+    margin-bottom: 16px;
+  }
+
+  .modal-field.checkbox {
+    margin-bottom: 24px;
   }
 
 .modal-input-label {
@@ -731,7 +742,7 @@ button.modal-close {
 }
 
 .modal-check-box {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 16px;
@@ -741,7 +752,7 @@ button.modal-close {
   border: 1px solid rgba(46, 47, 66, 0.4);
   fill: transparent;
   background: transparent;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-button.order-button {
