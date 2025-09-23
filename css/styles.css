@@ -489,8 +489,8 @@ margin-bottom: 8px;
 .footer-icons {
   display: block;
   /* margin: 8px; */
-  /* margin-left: 16px; */
-  margin: 0 auto;
+  margin-left: 16px;
+  /* margin: 0 auto; */
   fill: #f4f4fd;
 }
 
