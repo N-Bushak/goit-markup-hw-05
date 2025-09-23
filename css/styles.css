@@ -489,7 +489,8 @@ margin-bottom: 8px;
 .footer-icons {
   display: block;
   /* margin: 8px; */
-  margin-left: 16px;
+  /* margin-left: 16px; */
+  margin: 0 auto;
   fill: #f4f4fd;
 }
 
@@ -539,9 +540,9 @@ margin-bottom: 8px;
 .footer-button.order-button {
   min-width: 165px;
   height: 40px;
-  /* padding: 8px 24px; */
-  padding-left: 24px;
-  padding-right: 24px;
+  padding: 8px 24px;
+  /* padding-left: auto;
+  padding-right: auto; */
   border: none;
   display: flex;
   justify-content: center;
@@ -761,12 +762,12 @@ button.modal-close {
 }
 
 .modal-button.order-button {
-  display: block;
   min-width: 169px;
   height: 56px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  /* font-weight: 500; 
+  /* display: block;
+  font-weight: 500; 
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
